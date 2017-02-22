@@ -1,0 +1,44 @@
+{
+  "name": "ggtmc",
+  "version": "1.0.0",
+  "description": "A javascript game",
+  "main": "index.html",
+  "scripts": {
+    "watch": "gulp watch",
+    "server": "ssh root@104.236.222.9"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.11.2",
+    "browserify": "^13.0.0",
+    "dotenv": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-newer": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-size": "^2.0.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "jpegtran-bin": "3.0.6",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.0.1",
+    "modernizr": "^3.3.1",
+    "node.normalize.scss": "^3.0.3",
+    "rsyncwrapper": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "snapsvg": "^0.5.1"
+  }
+}
